@@ -1,0 +1,37 @@
+{
+    "name": "xelect",
+    "version": "0.1.0",
+    "main": "dist/xelect.min.js",
+    "author": "Tony Vu <tokafew420@gmail.com>",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/tokafew420/xelect.git"
+    },
+    "homepage": "https://tokafew420.github.io/xelect/",
+    "dependencies": {},
+    "devDependencies": {
+        "@babel/core": "^7.12.10",
+        "@babel/preset-env": "^7.12.11",
+        "gulp": "^4.0.2",
+        "gulp-babel": "^8.0.0",
+        "gulp-clean": "^0.4.0",
+        "gulp-eslint": "^6.0.0",
+        "gulp-rename": "^1.4.0",
+        "gulp-sourcemaps": "^2.6.5",
+        "gulp-string-replace": "^1.1.2",
+        "gulp-terser": "^1.4.1",
+        "terser": "^4.8.0",
+        "yargs-parser": ">=13.1.2"
+    },
+    "scripts": {
+        "gulp": "gulp"
+    },
+    "keywords": [
+        "select",
+        "dropdown",
+        "javascript",
+        "selectable",
+        "vanilla"
+    ]
+}

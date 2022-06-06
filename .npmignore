@@ -1,0 +1,14 @@
+# Keeping files out of your package
+# https://docs.npmjs.com/misc/developers#keeping-files-out-of-your-package
+
+# Directories
+/.vscode/
+/docs/
+/node_modules/
+/src/
+
+# Project files
+.editorconfig
+.eslintignore
+.eslintrc.json
+gulpfile.js

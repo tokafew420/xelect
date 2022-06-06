@@ -1,0 +1,102 @@
+.navbar {
+    background-color: #04045b;
+    min-height: 4rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, .05), inset 0 -1px 0 rgba(0, 0, 0, .1);
+}
+
+@media (min-width: 768px) {
+    .navbar {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        z-index: 1071;
+    }
+}
+
+.octicon {
+    display: inline-block;
+    fill: #fff;
+    vertical-align: middle;
+}
+
+.npm-icon {
+    fill: #ff0000;
+    height: 32px;
+    width: 80px;
+}
+
+@media screen and (min-width: 30em) {
+    .npm-icon {
+        width: 70px;
+    }
+}
+
+.doc-link {
+    display: inline-block;
+    fill: #fff;
+    vertical-align: middle;
+}
+
+h2:hover .doc-link,
+h3:hover .doc-link {
+    fill: #000;
+}
+
+.toc {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 7rem;
+    height: calc(100vh - 7rem);
+    overflow-y: auto;
+    order: 2;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.toc nav {
+    display: block;
+}
+
+.toc nav nav {
+    padding-left: 14px;
+}
+
+.toc a {
+    display: block;
+    padding: .125rem 1.5rem;
+    color: #77757a;
+    font-size: .9em;
+    line-height: 14px;
+}
+
+.toc a.active {
+    font-weight: bold;
+}
+
+.section-nav {
+    border-left: 1px solid #eee;
+}
+
+.code {
+    background-color: #333;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    color: #ffa0a0;
+    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-size: 87.5%;
+    padding-left: .5em;
+    padding-right: .5em;
+    white-space: pre;
+    word-break: break-word;
+}
+
+.prettyprint {
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+.footer {
+    background-color: #04045b;
+    height: 300px;
+    width: 100%;
+}
